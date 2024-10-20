@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background-color: #cee6f0;
+}
+
+.container {
+  position: fixed;
+  inset: 0px;
+  width: 20rem;
+  height: 5rem;
+  max-width: 100vw;
+  max-height: 100dvh;
+  margin: auto;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: .5rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
