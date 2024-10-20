@@ -23,3 +23,15 @@ body {
   border-radius: .5rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, .3);
 }
+
+.sign-up {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.sign-up-message {
+  margin-top: 0.5rem;
+  font-size: .8rem;
+  text-align: center;
+}
