@@ -90,3 +90,29 @@ body {
   margin-right: 0.8rem;
   margin-bottom: 0.rem;
 }
+
+.log-in-container {
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+.log-in-container p {
+  font-weight: bold;
+  font-size: .8rem;
+}
+
+.log-in-container button {
+  background-color: transparent;
+  border: none;
+  margin-left: 0.2rem;
+  color: rgb(12, 114, 182);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: .8rem;
+  transition: all .2s;
+}
+
+.log-in-container button:hover {
+  opacity: .8;
+}
