@@ -14,7 +14,7 @@ body {
   position: fixed;
   inset: 0px;
   width: 20rem;
-  height: 15rem;
+  height: 22rem;
   max-width: 100vw;
   max-height: 100dvh;
   margin: auto;
@@ -115,4 +115,41 @@ body {
 
 .log-in-container button:hover {
   opacity: .8;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.inputs-container input {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: .5px solid #d6d7d8;
+  border-radius: .3rem;
+  width: 18rem;
+}
+
+.inputs-container input:focus {
+  outline: 1px solid #3d8ce7;
+}
+
+.name-container,
+.email-container,
+.password-container {
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+.name-container label,
+.email-container label,
+.password-container label {
+  position: absolute;
+  inset: auto auto auto 5px;
+  font-size: .7rem;
+  font-weight: bold;
+  color: #3d8ce7;
+  background-color: #fff;
 }
