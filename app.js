@@ -16,3 +16,7 @@ document.querySelector(".email-signup").addEventListener("click", () => {
         <input type="password" name="password" id="password" placeholder="Password">
       </div>`;
 });
+
+document.querySelector(".email-signup").addEventListener("click", () => {
+  document.querySelector(".container").style.height = "25rem";
+});
