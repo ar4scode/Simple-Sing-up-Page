@@ -127,13 +127,13 @@ body {
 .inputs-container input {
   margin-top: 0.5rem;
   padding: 0.5rem;
-  border: .5px solid #d6d7d8;
+  border: .5px solid #17a3e4;
   border-radius: .3rem;
   width: 18rem;
 }
 
 .inputs-container input:focus {
-  outline: 1px solid #3d8ce7;
+  outline: 1.5px solid #17a3e4;
 }
 
 .name-container,
@@ -150,6 +150,6 @@ body {
   inset: auto auto auto 5px;
   font-size: .7rem;
   font-weight: bold;
-  color: #3d8ce7;
+  color: #17a3e4;
   background-color: #fff;
 }
